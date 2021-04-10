@@ -1,0 +1,14 @@
+:root {
+     --Background-color: #23395B;
+     --text-color: #FFF;
+}
+
+body {
+     background: var(--Background-color);
+}
+
+.txt {
+     color: var(--text-color);
+     justify-self: center;
+     align-self: center;
+}

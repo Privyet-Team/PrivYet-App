@@ -1,0 +1,18 @@
+:root {
+  --Background-color: #23395B;
+  --text-color: #FFF;
+}
+
+body {
+  background: var(--Background-color);
+}
+
+.txt {
+  color: var(--text-color);
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=succes.css.map */

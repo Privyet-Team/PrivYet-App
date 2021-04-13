@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACG,KAAK,EAAE,kBAAkB;CAC7B",
+    "sources": [
+        "FAQ.scss"
+    ],
+    "names": [],
+    "file": "FAQ.css"
+}

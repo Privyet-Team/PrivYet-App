@@ -1,0 +1,57 @@
+:root {
+  --background-color: #0E0F19;
+  --link-color: #903749;
+  --text-color: #F50057;
+  --section-color: #1B2845;
+  --second-section-color: #083D77;
+  --third-section-color: #0E1C36;
+  --fourth-section-color: #EE964B;
+}
+
+.rese {
+  background: var(--third-section-color);
+}
+
+#navbar {
+  background: var(--background-color) !important;
+}
+
+.c {
+  background: var(--section-color);
+}
+
+.sh1 {
+  background: var(--second-section-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: var(--background-color);
+}
+
+.txt {
+  color: var(--text-color);
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+  font-weight: bold;
+}
+
+ul.nav li a,
+ul.nav li a:visited {
+  color: var(--text-color) !important;
+}
+
+ul.nav li a:hover,
+ul.nav li a:active {
+  color: var(--text-color) !important;
+}
+
+ul.nav li.active a {
+  color: var(--text-color) !important;
+}
+/*# sourceMappingURL=styles.css.map */

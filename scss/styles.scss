@@ -2,6 +2,7 @@
      --background-color: #0E0F19;
      --link-color: #903749;
      --text-color: #F50057;
+     --primary: #1767;
      --section-color: #1B2845;
      --second-section-color: #083D77;
      --third-section-color: #0E1C36;
@@ -22,7 +23,7 @@
 }
 
 .sh1 {
-     background: var(--second-section-color);
+     background: var(--primary) !important;
 }
 
 html {

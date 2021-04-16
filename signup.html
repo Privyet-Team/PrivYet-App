@@ -198,25 +198,25 @@
                                         <br>
                                         <div class="text-center">
                                              <img src="Img/mike-enerio-yPbBYE1pkHo-unsplash.jpg" alt=""
-                                                  class="rounded-circle" width="90" height="90">
+                                                  class="rounded-circle img-responsive" width="90" height="90">
                                         </div>
                                         <br>
                                         <div class="row">
                                              <div class="col">
-                                                  <input type="text" class="form-control" id="email"
-                                                       placeholder="Enter email" name="email">
+                                                  <input type="text" class="form-control" id="usr"
+                                                       placeholder="Username">
                                              </div>
                                              <div class="col">
                                                   <input type="password" class="form-control"
-                                                       placeholder="Enter password" name="pswd">
+                                                       placeholder="Enter password" name="pswd" required>
                                              </div>
                                         </div>
 
                                         <br>
                                         <div class="row">
                                              <div class="col">
-                                                  <input type="text" class="form-control" id="usr"
-                                                       placeholder="Username">
+                                                  <input type="text" class="form-control" id="email"
+                                                       placeholder="Enter email or Phone Number" name="email" required>
                                              </div>
                                              <div class="col"><input type="date" class="form-control"></div>
                                         </div>
@@ -225,18 +225,51 @@
                                              <label class="form-check-label">
                                                   <input type="radio" class="form-check-input text-white"
                                                        name="optradio">
-                                                  Male
+                                                  <label class="custom-control-label" for="customRadio1">
+                                                       <h5 class="txt">Male</h5>
+                                                  </label>
                                              </label>
                                         </div>
                                         <div class="form-check-inline">
                                              <label class="form-check-label">
                                                   <input type="radio" class="form-check-input text-white"
                                                        name="optradio">
-                                                  Female
+                                                  <label class="custom-control-label" for="customRadio1">
+                                                       <h5 class="txt">Female</h5>
+                                                  </label>
                                              </label>
                                         </div>
+                                        <label for="" class="checkbox-inline">
+                                             <h5 class="txt"><input type="checkbox" name="" data-toggle="modal"
+                                                       data-target="#myModal" id="" required> By
+                                                  clicking this box you agree to our <a href="">Terms Of
+                                                       Service</a></h5>
+
+                                             <!-- Modal -->
+                                             <div id="myModal" class="modal fade" role="dialog">
+                                                  <div class="modal-dialog">
+
+                                                       <!-- Modal content-->
+                                                       <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                 <button type="button" class="close"
+                                                                      data-dismiss="modal">&times;</button>
+                                                                 <h4 class="modal-title">Modal Header</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                 <p>Some text in the modal.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                 <button type="button" class="btn btn-default"
+                                                                      data-dismiss="modal">Close</button>
+                                                            </div>
+                                                       </div>
+
+                                                  </div>
+                                             </div>
+                                        </label>
                                         <div class="mb-3">
-                                             <button type="button" class="btn btn-danger">Login</button>
+                                             <button type="button" class="text-center btn btn-danger">Sign Up</button>
                                         </div>
                                    </div>
                               </div>

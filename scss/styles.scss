@@ -1,14 +1,25 @@
 :root {
      --background-color: #0E0F19;
-     --link-color: #903749;
      --text-color: #F50057;
-     --primary: #1767;
+     --primary: #031D44;
      --section-color: #1B2845;
      --second-section-color: #083D77;
      --third-section-color: #0E1C36;
      --fourth-section-color: #EE964B;
 }
 
+section {
+     max-height: 540px;
+}
+
+body {
+     background-color: --background-color;
+}
+
+.anchor {
+     text-decoration: none !important;
+     color: var(--text-color) !important;
+}
 
 .rese {
      background: var(--third-section-color);

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/king101-bit/Socialize/issues"
   },
-  "homepage": "https://socialize-website.netlify.app"
+  "homepage": "https://socialize-website.netlify.app",
+  "dependencies": {
+    "@supabase/gotrue-js": "^1.13.1",
+    "@supabase/supabase-js": "^1.11.6"
+  }
 }

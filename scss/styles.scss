@@ -8,13 +8,27 @@
      --fourth-section-color: #EE964B;
 }
 
+.all {
+     background-color: var(--background-color);
+}
+
+.wrapper {
+     text-align: center;
+     margin-top: 150px;
+}
+
+.card-link {
+     text-decoration: none !important;
+}
+
+.card {
+     align-self: center;
+}
+
 section {
      max-height: 540px;
 }
 
-body {
-     background-color: --background-color;
-}
 
 .username {
      color: #F9FAFB;

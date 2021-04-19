@@ -8,12 +8,27 @@
   --fourth-section-color: #EE964B;
 }
 
-section {
-  max-height: 540px;
+.all {
+  background-color: var(--background-color);
 }
 
-body {
-  background-color: --background-color;
+.wrapper {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.card-link {
+  text-decoration: none !important;
+}
+
+.card {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section {
+  max-height: 540px;
 }
 
 .username {

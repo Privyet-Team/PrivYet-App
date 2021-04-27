@@ -8,6 +8,43 @@
   --fourth-section-color: #EE964B;
 }
 
+.button {
+  margin-left: 690px;
+}
+
+.ah {
+  margin-top: 10px;
+}
+
+.pix {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  display: inline !important;
+}
+
+.mak {
+  margin-top: 10px;
+}
+
+.idk {
+  margin-right: 10px;
+}
+
+.profile-info {
+  margin-left: 250px;
+}
+
+.profile-details {
+  margin-bottom: 0px;
+  margin-left: 85px;
+}
+
+.wife {
+  margin-top: 3px;
+  vertical-align: middle;
+}
+
 .all {
   background-color: var(--background-color);
 }

@@ -1,3 +1,12 @@
 {
-     "liveServer.settings.port": 5501
+     "liveServer.settings.port": 5501,
+     "emmet.excludeLanguages": [
+     
+          "markdown"
+     ],
+     "emmet.preferences": {
+     
+     },
+     "emmet.showSuggestionsAsSnippets": true,
+     "emmet.triggerExpansionOnTab": true
 }

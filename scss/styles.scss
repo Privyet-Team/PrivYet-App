@@ -8,6 +8,16 @@
      --fourth-section-color: #EE964B;
 }
 
+.is-horizontal-center {
+     justify-content: center;
+}
+
+.center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
 .text {
      font-family: 'PT Sans', sans-serif;
      font-weight: bold;

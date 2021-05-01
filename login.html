@@ -7,61 +7,30 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Login to Xenon</title>
      <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
-     <link rel="stylesheet" href="/scss/bootstrap.min.css">
+     <link rel="stylesheet" href="/scss/bulma.css">
      <link rel="stylesheet" href="SCSS/styles.css">
      <link rel="stylesheet" href="/scss/sweetalert2.min.css">
 </head>
 
 <body class="bg-light">
-     <br>
-     <div class="container-fluid">
-          <div class="row mx-1">
-               <div class="col-lg-10 col-md-10 offset-lg-1 offset-md-1 bg-white shadow mb-5 border border-primary">
-                    <div class="row">
-                         <div class="col-lg-6 col-md-6 p-4 bg-primary diva">
-                              <img src="/Img/logo_transparent.png" class="text-center mx-auto d-block mik"
-                                   alt="Xenon Logo" width="200" height="200">
-                         </div>
-                         <div class="col-lg-6 col-md-6 p-lg-5 p-md-5 px-3 py-4">
-                              <div id="signInForm">
-                                   <h2 class="h2 text-center text-dark mb-3">Sign In</h2>
-                                   <div class="form-group">
-                                        <label for="userSIEmail">Email address<span
-                                                  class="text-danger ml-1">*</span></label>
-                                        <input type="email" class="form-control" id="userSIEmail"
-                                             onblur="checkUserSIEmail()" placeholder="mail@mail.com">
-                                        <small id="userSIEmailError" class="form-text text-danger">Please check
-                                             your login information.</small>
-                                   </div>
-                                   <div class="form-group">
-                                        <label for="userSIPassword">Password<span
-                                                  class="text-danger ml-1">*</span></label>
-                                        <input type="password" class="form-control" id="userSIPassword"
-                                             onblur="checkUserSIPassword()" placeholder="password">
-                                        <small id="userSIPasswordError" class="form-text text-danger">Please check
-                                             your password.</small>
-                                   </div>
-                                   <button type="button" class="btn btn-outline-success text-uppercase mb-3"
-                                        onclick="signIn()">Sign In</button>
-                                   <p>Forgot Password?<a href="" class="anchor"><strong class=" text-uppercase">Reset
-                                                  Password</strong></a></p>
-                                   <p>Don't have an account? <a href="signup.html" class="anchor"><strong
-                                                  class="text-uppercase showSignUpForm">SignUp</strong></a>
-                                   </p>
-                              </div>
-                         </div>
-                    </div>
+     <form class="box is-align-self-center" style="width: 300px;">
+          <div class="field-elements">
+               <label class="label">Email</label>
+               <div class="control">
+                    <input class="input" type="email" placeholder="e.g. dan@example.com">
                </div>
           </div>
-     </div>
+
+          <div class="field">
+               <label class="label">Password</label>
+               <div class="control">
+                    <input class="input" type="password" placeholder="********">
+               </div>
+          </div>
+
+          <button class="button is-danger">Sign in</button>
+     </form>
 </body>
-<script src="javascript/Auth.js"></script>
-<script src="/javascript/bootstrap.bundle.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
 <script src="/javascript/sweetalert2.all.min.js"></script>
 <script src="/javascript/app.js"></script>
 

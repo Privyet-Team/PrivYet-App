@@ -18,21 +18,42 @@
      <div class="profile-info">
           <div class="container">
                <div class="row">
-                    <div class="col"><img src="Img/mike-enerio-yPbBYE1pkHo-unsplash.jpg"
-                              alt="Sara Tancerdi profile-picture" width="90" height="90"
-                              class="rounded-circle img-responsive mak"></div>
+                    <div class="col"><img src="Img/mike-enerio-yPbBYE1pkHo-unsplash.jpg" alt="profile-picture"
+                              width="90" height="90" id="userAvatar" class="rounded-circle img-responsive mak"></div>
                     <div class="col">
                          <div class="profile-details">
-                              <h4 class="text-black">Elon Musk</h4>
-                              <h6 class="txt anchor">@Elonmoon</h6>
+                              <h4 class="text-black" id="userPfFullName">Elon Musk</h4>
+                              <h6 class="txt anchor" id="userPfUsername">@Elonmoon</h6>
+                         </div>
+                         <div class="bio">
+                              <p id="userPfBio">I'm cool,fresh</p>
                          </div>
                     </div>
                </div>
           </div>
           <div class="button">
-               <button class="btn btn-outline-success" onclick="Edit()">Edit Profile</button>
+               <button class="btn btn-outline-success" onclick="showEditProfileForm()">Edit Profile</button>
           </div>
-          <div class="followings">
+          <div id="editProfileForm" class="text-center">
+               <h2 class="h2 text-center text-dark mb-3">Edit Profile</h2>
+               <hr class="mb-4">
+               <div class="form-group">
+                    <label for="userFullName">Full Name<span class="text-danger ml-1">*</span></label>
+                    <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()"
+                         placeholder="John doe">
+               </div>
+               <div class="form-group">
+                    <label for="userUserName">User Name<span class="text-danger ml-1">*</span></label>
+                    <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()"
+                         placeholder="John doe samuel">
+                    <small id="userSurnameError" class="form-text text-danger">Please fill the field.</small>
+               </div>
+               <button type="button" class="btn btn-outline-success btn-block text-uppercase mb-3"
+                    onclick="saveProfile()">Save changes</button>
+               <button type="button" class="btn btn-outline-danger btn-block text-uppercase"
+                    onclick="hideEditProfileForm()">Cancel changes</button>
+          </div>
+          <div class="followings d-inline-block align-text-top">
                <h6 class="text-black">Following</h6>
                <h6 class="text-black">Followers</h6>
                <h6 class="text-black">Likes</h6>

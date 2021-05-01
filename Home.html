@@ -5,11 +5,8 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Home | Xenon</title>
      <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossorigin="anonymous" />
      <link rel="stylesheet" href="/scss/bootstrap.min.css">
      <link rel="stylesheet" href="scss/styles.css">
 </head>
@@ -18,88 +15,30 @@
      <header>
           <nav class="navbar custom navbar-light bg-light">
                <div class="container-fluid">
-                    <a class="navbar-brand">Navbar</a>
+                    <a class="navbar-brand" href="Home.html">Xenon</a>
                     <form class="d-flex">
-                         <input class="form-control search me-2 shadow-none" type="text" placeholder="Search"
-                              aria-label="Search">
-                         <button type="button" class="btn btn-danger">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button type="submit" class="btn btn-outline-success">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" fill="currentColor"
                                    class="bi bi-plus-square" viewBox="0 0 16 16">
                                    <path
                                         d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
                                    <path
                                         d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                              </svg> Create
+                              </svg>create
                          </button>
                     </form>
                </div>
           </nav>
-          <div class="wrapper">
-               <!-- Sidebar -->
-               <nav id="sidebar">
-                    <div class="sidebar-header">
-                         <div class="row">
-                              <img src="Img/jixiao-huang-kYxIv6TjXLo-unsplash.jpg" alt="_user_ Profile pic"
-                                   class="img-fluid rounded" width="50px" height="50px">
-                              <div class="profile-info">
-                                   <h4 class="username">WolfGang Amadeus</h4>
-                                   <h6 class="userat">@WolfAmadeus53</h6>
-                              </div>
-                         </div>
-                    </div>
-
-                    <ul class="list-unstyled components">
-                         <ul class="list-unstyled" id="homeSubmenu">
-                              <li>
-                                   <a href="Home.html" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-home">
-                                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                        </svg> Home</a>
-                              </li>
-                              <li>
-                                   <a href="#" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                             height="16" fill="currentColor" class="bi bi-person-lines-fill"
-                                             viewBox="0 0 16 16">
-                                             <path
-                                                  d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
-                                        </svg> Profile</a>
-                              </li>
-                              <li>
-                                   <a href="#" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                             height="16" fill="currentColor" class="bi bi-newspaper"
-                                             viewBox="0 0 16 16">
-                                             <path
-                                                  d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
-                                             <path
-                                                  d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
-                                        </svg> <span class="badge bg-secondary">4</span> News feed</a>
-                              </li>
-                              <li><a href="" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                             height="16" fill="currentColor" class="bi bi-chat-left"
-                                             viewBox="0 0 16 16">
-                                             <path
-                                                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                                        </svg> <span class="badge bg-secondary">4</span> Messages</a></li>
-                              <li><a href="" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                             height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
-                                             <path
-                                                  d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
-                                        </svg> <span class="badge bg-secondary">4</span> Notification</a></li>
-                              <li><a href="" class="anchor"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                             height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                                             <path
-                                                  d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
-                                             <path
-                                                  d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
-                                        </svg> Settings</a></li>
-                         </ul>
-               </nav>
-          </div>
      </header>
 </body>
 <script src="/javascript/bootstrap.bundle.min.js"></script>
+<script src="/javascript/app.js"></script>
+<script src="/javascript/bootstrap.bundle.min.js"></script>
+<script src="/javascript/sweetalert2.all.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
 
 </html>

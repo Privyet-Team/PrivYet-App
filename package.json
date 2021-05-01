@@ -17,7 +17,9 @@
   },
   "homepage": "https://socialize-website.netlify.app",
   "dependencies": {
+    "@primer/css": "^16.3.0",
     "@supabase/gotrue-js": "^1.13.1",
-    "@supabase/supabase-js": "^1.11.6"
+    "@supabase/supabase-js": "^1.11.8",
+    "sweetalert2": "^10.16.6"
   }
 }

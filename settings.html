@@ -11,63 +11,78 @@
      <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
 </head>
 
-<body class="">
-     <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel"
-          data-bs-backdrop="false" data-bs-scroll="true">
-          <div class="offcanvas-header">
-               <h5 class="offcanvas-title" id="offcanvasLabel">User Profile</h5>
-               <div class="offcanvas-body">
-                    <ul class="nav">
-                         <li class="nav-item pix">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                   class="bi bi-user" viewBox="0 0 16 16">
-                                   <path
-                                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                                   <path
-                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                              </svg><a class="nav-link active" href="index.html">User info</a>
-                         </li>
-                         <li class="nav-item pix">
-                              <a class="nav-link" href="FAQ.html">Favorites</a>
-                         </li>
-                         <li class="nav-item pix">
-                              <a class="nav-link" href="contact-us.html">Analytics</a>
-                         </li>
-                         <li class="nav-item pix">
-                              <a class="nav-link" href="About.html">Setting</a>
-                         </li>
-                         <li class="nav-item pix">
-                    </ul>
-               </div>
-          </div>
+<body class="bg-dark">
+     <div class="d-flex flex-column p-3 bg-light" style="width: 280px; height:100px;">
+          <a href="Home.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+               <span class="fs-4">User Profile</span>
+          </a>
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
+               <li class="nav-item">
+                    <a href="#" class="nav-link">
+                         <svg class="bi me-2" width="16" height="16">
+                              <use xlink:href="#home" /></svg>
+                         Home
+                    </a>
+               </li>
+               <li>
+                    <a href="#" class="nav-link link-dark">
+                         <svg class="bi me-2" width="16" height="16">
+                              <use xlink:href="#speedometer2" /></svg>
+                         Dashboard
+                    </a>
+               </li>
+               <li>
+                    <a href="#" class="nav-link link-dark">
+                         <svg class="bi me-2" width="16" height="16">
+                              <use xlink:href="#table" /></svg>
+                         Orders
+                    </a>
+               </li>
+               <li>
+                    <a href="#" class="nav-link link-dark">
+                         <svg class="bi me-2" width="16" height="16">
+                              <use xlink:href="#grid" /></svg>
+                         Products
+                    </a>
+               </li>
+               <li>
+                    <a href="#" class="nav-link link-dark">
+                         <svg class="bi me-2" width="16" height="16">
+                              <use xlink:href="#people-circle" /></svg>
+                         Customers
+                    </a>
+               </li>
+          </ul>
      </div>
      <div class="place">
           <div class="profile-info">
                <img src="Img/mike-enerio-yPbBYE1pkHo-unsplash.jpg" alt="Sara Tancerdi profile-picture" width="90"
                     height="90" class="rounded-circle img-responsive">
-               <h4 class="text-black">Sara Tancredi</h5>
+               <h4 class="text-white">Sara Tancredi</h5>
                     <h6 class="txt">@Sarakrazy</h6>
                     <form action="">
                          <div class="idk">
                               <div class="row">
                                    <div class="col">
-                                        <input type="text" class="form-control" id="usr" placeholder="Username">
+                                        <input type="text" class="form-control input-sm" id="usr"
+                                             placeholder="Username">
                                    </div>
                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Full Name" name="pswd"
-                                             required>
+                                        <input type="text" class="form-control input-sm" placeholder="Full Name"
+                                             name="pswd" required>
                                    </div>
                               </div>
 
                               <br>
                               <div class="row">
                                    <div class="col">
-                                        <input type="email" class="form-control" id="email" placeholder="Email"
+                                        <input type="email" class="form-control input-sm" id="email" placeholder="Email"
                                              name="email" required>
                                    </div>
                                    <div class="col">
                                         <input type="number" name="" placeholder="Phone Number" id=""
-                                             class="form-control">
+                                             class="form-control input-sm">
                                    </div>
                               </div>
                               <div class="text-center ah">

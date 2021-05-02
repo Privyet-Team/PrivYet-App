@@ -8,6 +8,23 @@
      --fourth-section-color: #EE964B;
 }
 
+.card-title {
+     text-align: center !important;
+}
+
+.img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 80px !important;
+     width: 80px !important;
+     border-radius: 100% !important;
+     -webkit-border-radius: 100% !important;
+     -moz-border-radius: 100% !important;
+     -ms-border-radius: 100% !important;
+     -o-border-radius: 100% !important;
+}
+
 .is-horizontal-center {
      justify-content: center;
 }

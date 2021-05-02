@@ -531,10 +531,18 @@ table th {
 @-webkit-keyframes spinAround {
   from {
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
   }
 
   to {
     transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
   }
 }
 
@@ -5859,7 +5867,7 @@ print {
   flex-direction: column;
   max-height: calc(100vh - 40px);
   overflow: hidden;
-  -ms-overflow-y: visible;
+  overflow-y: visible;
 }
 
 .modal-card-head,

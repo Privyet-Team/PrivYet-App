@@ -1,5 +1,5 @@
 {
-  "name": "Socialize",
+  "name": "Privyet-App",
   "version": "1.0.0",
   "description": "A social media platform",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/king101-bit/Socialize-website.git"
+    "url": "git+https://github.com/king101-bit/Privyet-App.git"
   },
-  "author": "Socialize Team",
+  "author": "Privyet Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/king101-bit/Socialize/issues"
+    "url": "https://github.com/king101-bit/Privyet-App/issues"
   },
-  "homepage": "https://socialize-website.netlify.app",
+  "homepage": "https://privyet.netlify.app",
   "dependencies": {
     "@primer/css": "^16.3.0",
     "@supabase/gotrue-js": "^1.13.1",

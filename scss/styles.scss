@@ -1,15 +1,128 @@
 :root {
-     --background-color: #0E0F19;
+     --background-color: #C33C54;
      --text-color: #F50057;
      --primary: #031D44;
      --section-color: #1B2845;
      --second-section-color: #083D77;
      --third-section-color: #0E1C36;
      --fourth-section-color: #EE964B;
+     --contact-page-color: #02044A;
+}
+
+
+#send {
+     margin-top: 500px;
+}
+
+.articles {
+     margin: 5rem 0;
+     margin-top: -200px;
+}
+
+.articles .content p {
+     line-height: 1.9;
+     margin: 15px 0;
+}
+
+.author-image {
+     top: -50px;
+     left: 50%;
+     width: 60px;
+     height: 60px;
+     border: 3px solid #ccc;
+     border-radius: 50%;
+}
+
+.media-center {
+     display: block;
+     margin-bottom: 1rem;
+}
+
+.media-content {
+     margin-top: 3rem;
+}
+
+.article,
+.promo-block {
+     margin-top: 6rem;
+}
+
+.article-title {
+     font-size: 2rem;
+     font-weight: lighter;
+     line-height: 2;
+}
+
+.article-subtitle {
+     color: #909AA0;
+     margin-bottom: 3rem;
+}
+
+.article-body {
+     line-height: 1.4;
+     margin: 0 6rem;
+}
+
+
+.author-image {
+     position: absolute;
+     top: -30px;
+     left: 50%;
+     width: 60px;
+     height: 60px;
+     margin-left: -30px;
+     border: 3px solid #ccc;
+     border-radius: 50%;
+}
+
+.background-cover {
+     background-image: url(/Img/pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 500px;
+}
+
+.search {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.pishure {
+     width: 64px;
+     height: 64px;
+     border-radius: 100%;
+     -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+     -ms-border-radius: 100%;
+     -o-border-radius: 100%;
+}
+
+#search {
+     display: inline-block;
+     margin: 0 auto;
+}
+
+.contact {
+     background-color: var(--contact-page-color) !important;
 }
 
 .card-title {
      text-align: center !important;
+}
+
+.img-2 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 80% !important;
+     width: 80% !important;
+     border-radius: 100% !important;
+     -webkit-border-radius: 100% !important;
+     -moz-border-radius: 100% !important;
+     -ms-border-radius: 100% !important;
+     -o-border-radius: 100% !important;
 }
 
 .img {
@@ -76,6 +189,7 @@ html {
 .navbar-brand {
      font-weight: bold;
      font-size: 20px;
+     color: var(--text-color);
 }
 
 .navbar-item-hover-background-color {
@@ -88,4 +202,13 @@ html {
 
 .navbar-item-color {
      color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+
+     body {
+          background-color: #181A1B !important;
+          color: white !important;
+     }
+
 }

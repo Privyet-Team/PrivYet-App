@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+     <meta name="description" content="Welcome to privyet we assure the best for you over here!">
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +17,11 @@
 
 <body>
      <header>
-          <nav class="navbar" role="navigation" aria-label="main navigation">
+          <nav class="navbar" role="navigation" style="background-color: blueviolet;" aria-label="main navigation">
                <div class="navbar-brand">
                     <a class="navbar-item" href="https://bulma.io">
-                         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                         <img src="https://bulma.io/images/bulma-logo.png" alt="logo" width="112" height="28">
                     </a>
-
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                          data-target="navbarBasicExample">
                          <span aria-hidden="true"></span>
@@ -33,12 +33,17 @@
                     <div class="navbar-item">
                          <div class="field is-grouped">
                               <div class="control has-icons-left has-icons-right">
-                                   <input class="input" type="email" placeholder="Email">
+                                   <input class="input is-rounded" type="text" spellcheck="true">
                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-search"></i>
-                                   </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                             stroke-linecap="round" stroke-linejoin="round"
+                                             class="feather feather-search">
+                                             <circle cx="11" cy="11" r="8"></circle>
+                                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                        </svg> </span>
                               </div>
-                              <p class="conteol">
+                              <p class="control">
                                    <button class="button is-danger is-light">Search</button>
                               </p>
                          </div>
@@ -47,17 +52,54 @@
                </div>
           </nav>
      </header>
-     <div class="box">
+     <div class="box ml-5 mt-5 is-mobile" style="width:450px;">
           <article class="media">
                <div class="media-left">
-                    <figure class="image is-64x64">
-                         <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                    <figure class=" is-64x64 img">
+                         <img src="/Img/pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg" alt="Image">
                     </figure>
                </div>
                <div class="media-content">
                     <div class="content">
-                         <h2 class="title-2"><strong>John Smith</strong></h2>
-                         <p class="subtitle-3">@johnsmith</p>
+                         <h2 class="title-3">John Smith</h2>
+                         <p class="subtitle-4">@johnsmith</p>
+                         <small id="time">10:15 AM</small>
+                    </div>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus vero
+                         corrupti quos.</p>
+                    <div class="is-inline-flex">
+                         <small class="mr-2">
+                              <button class="button anchor">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-heart">
+                                        <path
+                                             d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                   </svg>
+                              </button>
+                         </small>
+                         <small class="mr-2">
+                              <button class="button">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-heart">
+                                        <path
+                                             d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                   </svg>
+                              </button>
+                         </small>
+                         <small class="mr-2">
+                              <button class="button">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-heart">
+                                        <path
+                                             d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                   </svg>
+                              </button>
                     </div>
                </div>
           </article>

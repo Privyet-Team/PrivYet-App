@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-     <meta name="description"
-          content="You could make a new post and it'll be live as soon as you click the post button!">
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Create a post | Privyet</title>
-     <link rel="stylesheet" href="/scss/bulma.css">
-     <link rel="stylesheet" href="/scss/styles.css">
-     <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
-     <link rel="stylesheet"
-          href="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/css/bulma-tagsinput.min.css" />
-</head>
+     <head>
+          <meta name="description"
+               content="You could make a new post and it'll be live as soon as you click the post button!">
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Create a post | Privyet</title>
+          <link rel="stylesheet" href="/scss/bulma.css">
+          <link rel="stylesheet" href="/scss/bulma-rtl.css">
+          <link rel="stylesheet" href="/scss/styles.css">
+          <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
+          <link rel="stylesheet"
+               href="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/css/bulma-tagsinput.css">
+     </head>
 
-<body>
-     <div class="hero">
-          <div class="container">
-               <div class="column">
-                    <div class="is-flex is-vcentered is-centered">
-                         <fieldset>
+     <body>
+          <div class="hero is-fullheight has-background-danger is-light">
+               <div class="container block">
+                    <div class="column">
+                         <div class="is-flex is-vcentered is-centered">
                               <form action="" class="" method="post">
-                                   <div class="box mt-6 ml-6" style="width: 500px;">
-                                        <h1 class="title is-2 has-text-centered">Create a Post!</h1>
+                                   <div class="box">
+                                        <h2 class="title is-2 has-text-centered">Create a Post</h2>
                                         <hr>
                                         <div class="control has-icons-left">
                                              <span class="icon">
@@ -37,19 +37,15 @@
                                                        </path>
                                                   </svg>
                                              </span>
-                                             <input type="text" name="" spellcheck="true" id="" class="input"
+                                             <input type="text" name="" spellcheck="true" id="cap" class="input"
                                                   placeholder="Caption">
                                         </div>
-                                        <br>
                                         <div class="control">
                                              <input type="datetime-local" name="" id="" class="input">
                                         </div>
-                                        <br>
                                         <div class="control">
-                                             <input class="input" type="tags" placeholder="Add a tag"
-                                                  value="Tag1,Tag2,Tag3">
+                                             <input class="input" type="tags" placeholder="Add a tag">
                                         </div>
-                                        <br>
                                         <div id="file-js-example" class="file has-name">
                                              <label class="file-label">
                                                   <input class="file-input" type="file" name="resume">
@@ -74,22 +70,24 @@
                                                   </span>
                                              </label>
                                         </div>
-                                        <br>
-                                        <button type="submit"
-                                             class="button is-danger has-text-center"><strong>Post!</strong></button>
+                                        <div class="buttons">
+                                             <button type="submit"
+                                                  class="button is-danger has-text-weight-bold">Post</button>
+                                             <button type="submit"
+                                                  class="button is-warning has-text-weight-bold">Discard</button>
+                                        </div>
                                    </div>
                               </form>
-                         </fieldset>
+                         </div>
                     </div>
                </div>
           </div>
-     </div>
-</body>
-<script src="/javascript/app.js"></script>
-<script src="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/js/bulma-tagsinput.min.js">
-</script>
-<script type="text/javascript">
-     bulmaTagsinput.attach();
-</script>
+     </body>
+     <script src="/javascript/app.js"></script>
+     <script src="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/js/bulma-tagsinput.js">
+     </script>
+     <script type="text/javascript">
+          bulmaTagsinput.attach();
+     </script>
 
 </html>

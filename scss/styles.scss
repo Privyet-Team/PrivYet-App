@@ -2,10 +2,6 @@
      --background-color: #C33C54;
      --text-color: #F50057;
      --primary: #031D44;
-     --section-color: #1B2845;
-     --second-section-color: #083D77;
-     --third-section-color: #0E1C36;
-     --fourth-section-color: #EE964B;
      --contact-page-color: #02044A;
 }
 
@@ -205,6 +201,43 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
+
+     .navbar {
+          background-color: #181A1B !important;
+          color: white !important;
+     }
+
+     .blog-title,
+     .subtitle {
+          color: white !important;
+     }
+
+     .logo {
+          color: white !important;
+     }
+
+     .card-title,
+     .card-subtitle {
+          color: black !important;
+     }
+
+     .navbar-item,
+     .footer {
+          background-color: #181A1B !important;
+          color: white !important;
+     }
+
+     .footer {
+          background-color: #001514 !important;
+     }
+
+     .title {
+          color: white !important;
+     }
+
+     .card-title {
+          color: black !important;
+     }
 
      body {
           background-color: #181A1B !important;

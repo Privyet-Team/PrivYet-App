@@ -5,6 +5,15 @@
      --contact-page-color: #02044A;
 }
 
+.nav-img {
+     width: 64px;
+     height: 64px;
+     border-radius: 200%;
+     -webkit-border-radius: 200%;
+     -moz-border-radius: 200%;
+     -ms-border-radius: 200%;
+     -o-border-radius: 200%;
+}
 
 #send {
      margin-top: 500px;
@@ -221,6 +230,10 @@ html {
           color: black !important;
      }
 
+     .box {
+          background-color: #181A1B !important;
+     }
+
      .navbar-item,
      .footer {
           background-color: #181A1B !important;
@@ -231,7 +244,10 @@ html {
           background-color: #001514 !important;
      }
 
-     .title {
+     .title,
+     strong,
+     #code,
+     label {
           color: white !important;
      }
 

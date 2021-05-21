@@ -1,190 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Profile | Privyet</title>
-     <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
-     <link rel="stylesheet" href="/scss/styles.css">
-     <link rel="stylesheet" href="/scss/bulma.css">
-</head>
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Profile | Privyet</title>
+          <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
+          <link rel="stylesheet" href="/scss/styles.css">
+          <link rel="stylesheet" href="/scss/bulma.css">
+     </head>
 
-<body class="Dark-mode">
-     <div class="">
-          <nav class="navbar Dark-mode" role="navigation" aria-label="main navigation" id="navbar">
-               <div class="navbar-brand">
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                         data-target="navbarBasicExample">
-                         <span aria-hidden="true"></span>
-                         <span aria-hidden="true"></span>
-                         <span aria-hidden="true"></span>
-                    </a>
-               </div>
-               <div class="is-align-self-center" id="search">
-               </div>
-               <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-start is-inline-flex">
-                         <a href="">
-                              <li class="navbar-item has-text-danger">Home</li>
-                         </a>
-                         <a href="">
-                              <li class="navbar-item has-text-danger"><span class="icon"><svg
-                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-bell">
-                                             <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                                             <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                                        </svg></span> <span>Notification</span></li>
-                         </a>
-                         <a href="">
-                              <li class="navbar-item has-text-danger"><span class="icon"><svg
-                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-message-circle">
-                                             <path
-                                                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
-                                             </path>
-                                        </svg></span><span>Messages</span></li>
-                         </a>
-                         <a href="">
-                              <li class="navbar-item has-text-danger">Specials</li>
+     <body class="Dark-mode">
+          <div class="">
+               <nav class="navbar Dark-mode" role="navigation" aria-label="main navigation" id="navbar">
+                    <div class="navbar-brand">
+                         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                              data-target="navbarBasicExample">
+                              <span aria-hidden="true"></span>
+                              <span aria-hidden="true"></span>
+                              <span aria-hidden="true"></span>
                          </a>
                     </div>
-                    <div class="navbar-end">
-                         <div class="navbar-end">
-                              <div class="navbar-item">
-                                   <div class="field is-rounded">
-                                        <div class="control has-icons-right ml-5">
-                                             <svg xmlns=" http://www.w3.org/2000/svg" class="icon is-medium is-left"
-                                                  width="10" height="10" viewBox="0 0 24 24" fill="none"
-                                                  stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                  stroke-linejoin="round" class="feather feather-search">
-                                                  <circle cx="11" cy="11" r="8"></circle>
-                                                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                             </svg>
-                                             <input type="text" name="" class="input" placeholder="Search"
-                                                  aria-placeholder="Search" id="">
-                                        </div>
-                                   </div>
-                              </div>
-                              <div class="navbar-item mr-4">
-                                   <figure class="image is-24x24">
-                                        <img class="img is-24x24 img"
-                                             src="./Img/pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg">
-                                   </figure>
-                              </div>
-                              <div class="navbar-item">
-                                   <button class="button is-rounded is-danger">
-                                        <a href="create.html" class="has-text-white">
-                                             <strong>Post</strong>
-                                        </a>
-                                   </button>
-                              </div>
-                         </div>
-          </nav>
-     </div>
-     <main>
-          <div class="columns block">
-               <div class="column">
-                    <div class="box ml-5 mt-4 is-mobile" style="width: 560px; height: 350px;">
-                         <div class="media mt-1">
-                              <div class="media-left">
-                                   <figure class="img mt-2">
-                                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.18fVa6mmuYHA_sbaE2PX5AHaIr%26pid%3DApi&f=1"
-                                             class="img" alt="jorjasmith's picture ">
-                                   </figure>
-                              </div>
-                              <div class="media-content">
-                                   <h2 class="title is-4 has-text-weight-semibold">Jorja Smith<svg
-                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-heart">
-                                             <path
-                                                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-                                             </path>
-                                        </svg></h2>
-                                   <h5 class="subtitle is-5">@jorjasmith</h5>
-                                   <p class="subtitle is-5"> BE RIGHT BACK OUT NOW!!! <svg
-                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-headphones">
-                                             <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-                                             <path
-                                                  d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
-                                             </path>
-                                        </svg></p>
-                                   <p class="subtitleis-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-mail">
-                                             <path
-                                                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                             </path>
-                                             <polyline points="22,6 12,13 2,6"></polyline>
-                                        </svg> Jorja@gmail.com</p>
-                                   <p class="subtitle is-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-map-pin">
-                                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                             <circle cx="12" cy="10" r="3"></circle>
-                                        </svg> Lagos,Nigeria</p>
-                                   <p class="subtitle is-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-link">
-                                             <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
-                                             </path>
-                                             <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
-                                             </path>
-                                        </svg> <a href="">Spotify.com/jorjasmith</a></p>
-                                   <div class="has-text-centered is-inline-flex">
-                                        <h2 class="title is-5"><a href="" class="has-text-black">Following
-                                                  <small>30</small></a></h2>
-                                        <h2 class="title is-5"><a href="" class="has-text-black">Followers
-                                                  <small>2.5M</small></a></h2>
-                                        <h2 class="title is-5"><a href="" class="has-text-black">Likes
-                                                  <small>500K</small></a></h2>
-                                   </div>
-                              </div>
-                              <div class="media-right">
-                                   <button class="button is-danger is-light">
-                                        <span class="icon is-medium">
-                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    <div class="is-align-self-center" id="search">
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                         <div class="navbar-start is-inline-flex">
+                              <a href="">
+                                   <li class="navbar-item has-text-danger">Home</li>
+                              </a>
+                              <a href="">
+                                   <li class="navbar-item has-text-danger"><span class="icon"><svg
+                                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                                   stroke-linecap="round" stroke-linejoin="round"
-                                                  class="feather feather-user-plus">
-                                                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                                  <circle cx="8.5" cy="7" r="4"></circle>
-                                                  <line x1="20" y1="8" x2="20" y2="14"></line>
-                                                  <line x1="23" y1="11" x2="17" y2="11"></line>
-                                             </svg>
-                                        </span>
-                                        <span>Follow</span>
-                                   </button>
-                              </div>
+                                                  class="feather feather-bell">
+                                                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                                  <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                             </svg></span> <span>Notification</span></li>
+                              </a>
+                              <a href="">
+                                   <li class="navbar-item has-text-danger"><span class="icon"><svg
+                                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                  stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-message-circle">
+                                                  <path
+                                                       d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                                  </path>
+                                             </svg></span><span>Messages</span></li>
+                              </a>
+                              <a href="">
+                                   <li class="navbar-item has-text-danger">Specials</li>
+                              </a>
                          </div>
-                    </div>
-                    <div class="column">
-                         <div class="box is-pulled-right" style="width: 550px;">
-                              <div class="media mt-3">
-                                   <div class="media-left">
-                                        <figure class="img mt-2 image is-128x128">
-                                             <img class="img"
-                                                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pitchfork.com%2Flongform%2F918%2Fremainline2.jpg&f=1&nofb=1"
-                                                  alt="Heisrema's picture ">
+                         <div class="navbar-end">
+                              <div class="navbar-end">
+                                   <div class="navbar-item">
+                                        <div class="field is-grouped">
+                                             <div class="control has-icons-left has-icons-right">
+                                                  <input class="input is-rounded" type="text" spellcheck="true">
+                                                  <span class="icon is-small is-left">
+                                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-search">
+                                                            <circle cx="11" cy="11" r="8"></circle>
+                                                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                                       </svg> </span>
+                                             </div>
+
+                                        </div>
+                                   </div>
+                                   <div class="navbar-item mr-4">
+                                        <figure class="image is-24x24">
+                                             <img class="img is-24x24 img"
+                                                  src="./Img/pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg">
                                         </figure>
                                    </div>
-                                   <div class="media-content mt-3">
-                                        <h2 class="title is-3 has-text-weight-semibold">Rema</h2>
-                                        <h5 class="subtitle is-5">@Heisrema</h5>
-                                        <p class="subtitle is-5">BOUNCE OUT NOW!!! <svg
+                                   <div class="navbar-item">
+                                        <button class="button is-rounded is-danger">
+                                             <a href="create.html" class="has-text-white">
+                                                  <strong>Post</strong>
+                                             </a>
+                                        </button>
+                                   </div>
+                              </div>
+               </nav>
+          </div>
+          <main>
+               <div class="columns block">
+                    <div class="column">
+                         <div class="box ml-5 mt-4 is-mobile" style="width: 560px; height: 350px;">
+                              <div class="media mt-1">
+                                   <div class="media-left">
+                                        <figure class="img mt-2">
+                                             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.18fVa6mmuYHA_sbaE2PX5AHaIr%26pid%3DApi&f=1"
+                                                  class="img" alt="jorjasmith's picture ">
+                                        </figure>
+                                   </div>
+                                   <div class="media-content">
+                                        <h2 class="title is-4 has-text-weight-semibold">Jorja Smith<svg
+                                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                  stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-heart">
+                                                  <path
+                                                       d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                  </path>
+                                             </svg></h2>
+                                        <h5 class="subtitle is-5">@jorjasmith</h5>
+                                        <p class="subtitle is-5"> BE RIGHT BACK OUT NOW!!! <svg
                                                   xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                                   stroke-linecap="round" stroke-linejoin="round"
@@ -194,17 +120,43 @@
                                                        d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
                                                   </path>
                                              </svg></p>
+                                        <p class="subtitleis-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                  height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-mail">
+                                                  <path
+                                                       d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                  </path>
+                                                  <polyline points="22,6 12,13 2,6"></polyline>
+                                             </svg> Jorja@gmail.com</p>
+                                        <p class="subtitle is-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                  height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-map-pin">
+                                                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                                  <circle cx="12" cy="10" r="3"></circle>
+                                             </svg> Lagos,Nigeria</p>
+                                        <p class="subtitle is-6"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                  height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-link">
+                                                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">
+                                                  </path>
+                                                  <path
+                                                       d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71">
+                                                  </path>
+                                             </svg> <a href="">Spotify.com/jorjasmith</a></p>
                                         <div class="has-text-centered is-inline-flex">
                                              <h2 class="title is-5"><a href="" class="has-text-black">Following
-                                                       <small>50</small></a></h2>
+                                                       <small>30</small></a></h2>
                                              <h2 class="title is-5"><a href="" class="has-text-black">Followers
-                                                       <small>3M</small></a></h2>
+                                                       <small>2.5M</small></a></h2>
                                              <h2 class="title is-5"><a href="" class="has-text-black">Likes
-                                                       <small>160K</small></a></h2>
+                                                       <small>500K</small></a></h2>
                                         </div>
                                    </div>
                                    <div class="media-right">
-                                        <button class="button is-danger  is-light">
+                                        <button class="button is-danger is-light">
                                              <span class="icon is-medium">
                                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -221,11 +173,61 @@
                                    </div>
                               </div>
                          </div>
+                         <div class="column">
+                              <div class="box is-pulled-right" style="width: 550px;">
+                                   <div class="media mt-3">
+                                        <div class="media-left">
+                                             <figure class="img mt-2 image is-128x128">
+                                                  <img class="img"
+                                                       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pitchfork.com%2Flongform%2F918%2Fremainline2.jpg&f=1&nofb=1"
+                                                       alt="Heisrema's picture ">
+                                             </figure>
+                                        </div>
+                                        <div class="media-content mt-3">
+                                             <h2 class="title is-3 has-text-weight-semibold">Rema</h2>
+                                             <h5 class="subtitle is-5">@Heisrema</h5>
+                                             <p class="subtitle is-5">BOUNCE OUT NOW!!! <svg
+                                                       xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                       viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                       stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                       class="feather feather-headphones">
+                                                       <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                                       <path
+                                                            d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
+                                                       </path>
+                                                  </svg></p>
+                                             <div class="has-text-centered is-inline-flex">
+                                                  <h2 class="title is-5"><a href="" class="has-text-black">Following
+                                                            <small>50</small></a></h2>
+                                                  <h2 class="title is-5"><a href="" class="has-text-black">Followers
+                                                            <small>3M</small></a></h2>
+                                                  <h2 class="title is-5"><a href="" class="has-text-black">Likes
+                                                            <small>160K</small></a></h2>
+                                             </div>
+                                        </div>
+                                        <div class="media-right">
+                                             <button class="button is-danger  is-light">
+                                                  <span class="icon is-medium">
+                                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-user-plus">
+                                                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                                            <circle cx="8.5" cy="7" r="4"></circle>
+                                                            <line x1="20" y1="8" x2="20" y2="14"></line>
+                                                            <line x1="23" y1="11" x2="17" y2="11"></line>
+                                                       </svg>
+                                                  </span>
+                                                  <span>Follow</span>
+                                             </button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-               </div>
-     </main>
-</body>
-<script src="/javascript/app.js"></script>
-<script src="/javascript/Auth.js"></script>
+          </main>
+     </body>
+     <script src="/javascript/app.js"></script>
+     <script src="/javascript/Auth.js"></script>
 
 </html>

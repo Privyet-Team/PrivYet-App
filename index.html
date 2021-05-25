@@ -75,7 +75,7 @@
                               <div class="columns">
                                    <div class="column is-5 is-mobile">
                                         <div class="text">
-                                             <h3 class="title is-2">Be social. <br> The secure way.</h3>
+                                             <h3 class="title is-2"> <span id="demo"></span> <br> The secure way.</h3>
                                              <p class="subtitle">Making friends can be hard! But you're in luck connect
                                                   with
                                                   many people all over the world without having your data used against
@@ -583,12 +583,11 @@
                               </svg></div>
                          <div class="column is-6 is-offset-1 is-mobile">
                               <h3 class="title">Make a video call without worries</h3>
-                              <p class="subtitle">We route all your IP Adresses onto what we call <strong>Onion</strong>
-                                   Not
-                                   onion rings lol we're talking about a software used in tor to make anonymous browsing
-                                   you're in safe hands. <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-smile">
+                              <p class="subtitle">We don't use IP's to make video calls or live videos we use your
+                                   internet connection only nothing more than that. <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-smile">
                                         <circle cx="12" cy="12" r="10"></circle>
                                         <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
                                         <line x1="9" y1="9" x2="9.01" y2="9"></line>
@@ -1489,5 +1488,19 @@
           </footer>
      </body>
      <script src="/javascript/app.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.17.0/core.min.js"
+          integrity="sha512-o6alMAMTI5qAmVC1UvuRPgTl3UOOkP8NZ6212+rq1Oslsuy8Owt9r5Z0Wu0LNxpw/Q8N8ToGiyovHV+kyOulxg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script>
+          var demo = document.getElementById('demo');
+
+          var typewriter = new Typewriter(demo, {
+               strings: ['Be Creative', 'Be Social', 'Be Cool'],
+               cursor: '_',
+               delay: 'natural', // 'natural' or Number
+               loop: true, // infinite loop
+               autoStart: true,
+          });
+     </script>
 
 </html>

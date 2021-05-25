@@ -23,32 +23,11 @@ fileInput.onchange = function () {
         fileName.textContent = fileInput.files[0].name;
     }
 };
-var keys = "abcdefghijklmnopqrstubwsyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-var code = '';
-function getCode(button) {
-    code = generateCode(8);
-    document.getElementById('code').innerHTML = "<center><label style='font-size:35px; margin-top:30px;'>" + code + "</label></center>";
-    document.getElementById('button').removeAttribute('disabled');
-    button.setAttribute('disabled', 'disabled');
-}
-function generateCode(len) {
-    code = '';
-    for (i = 0; i < len; i++) {
-        code += keys.charAt(Math.floor(Math.random() * keys.length));
+function create_random_alphanums() {
+    var random_code = '';
+    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789abcdefghijklmnopqrstuvwxyz';
+    for (var i, i = 0; i < characters.length; i++) {
+        random_code += characters.charAt(Math.floor(Math.random() * characters.length));
     }
-    return code;
-}
-function checkCode(button) {
-    var val = document.getElementById('ccode').value;
-    if (val == "") {
-        document.getElementById('result').innerHTML = "<center class='text-danger'>Fill up the form first!</center>";
-    }
-    else {
-        if (code == val) {
-            document.getElementById('result').innerHTML = "<center class='text-success'>The code can be use</center>";
-        }
-        else {
-            document.getElementById('result').innerHTML = "<center class='text-danger'>Invalid code<center>";
-        }
-    }
+    document.getElementById('code').value = code;
 }

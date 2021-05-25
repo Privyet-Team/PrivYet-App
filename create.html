@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta name="description"
+               content="You could make a new post and it'll be live as soon as you click the post button!">
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Create a post | Privyet</title>
+          <link rel="stylesheet" href="/scss/bulma.css">
+          <link rel="stylesheet" href="/scss/bulma-rtl.css">
+          <link rel="stylesheet" href="/scss/styles.css">
+          <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
+          <link rel="stylesheet"
+               href="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/css/bulma-tagsinput.css">
+     </head>
+
+     <body>
+          <div class="hero is-fullheight has-background-danger is-light">
+               <div class="container block">
+                    <div class="column">
+                         <div class="is-flex is-vcentered is-centered">
+                              <form action="" class="" method="post">
+                                   <div class="box">
+                                        <h2 class="title is-2 has-text-centered">Create a Post</h2>
+                                        <hr>
+                                        <div class="control has-icons-left">
+                                             <span class="icon">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                       viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                       stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                       class="feather feather-edit-3">
+                                                       <path d="M12 20h9"></path>
+                                                       <path
+                                                            d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z">
+                                                       </path>
+                                                  </svg>
+                                             </span>
+                                             <input type="text" name="" spellcheck="true" id="cap" class="input"
+                                                  placeholder="Caption">
+                                        </div>
+                                        <div class="control">
+                                             <input type="datetime-local" name="" id="" class="input">
+                                        </div>
+                                        <div class="control">
+                                             <input class="input" type="tags" placeholder="Add a tag">
+                                        </div>
+                                        <div id="file-js-example" class="file has-name">
+                                             <label class="file-label">
+                                                  <input class="file-input" type="file" name="resume">
+                                                  <span class="file-cta">
+                                                       <span class="file-icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                 height="24" viewBox="0 0 24 24" fill="none"
+                                                                 stroke="currentColor" stroke-width="2"
+                                                                 stroke-linecap="round" stroke-linejoin="round"
+                                                                 class="feather feather-upload">
+                                                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                 </path>
+                                                                 <polyline points="17 8 12 3 7 8"></polyline>
+                                                                 <line x1="12" y1="3" x2="12" y2="15"></line>
+                                                            </svg> </span>
+                                                       <span class="file-label">
+                                                            Choose a file…
+                                                       </span>
+                                                  </span>
+                                                  <span class="file-name">
+                                                       No file uploaded
+                                                  </span>
+                                             </label>
+                                        </div>
+                                        <div class="buttons">
+                                             <button type="submit"
+                                                  class="button is-danger has-text-weight-bold">Post</button>
+                                             <button type="submit"
+                                                  class="button is-warning has-text-weight-bold">Discard</button>
+                                        </div>
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </body>
+     <script src="/javascript/app.js"></script>
+     <script src="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tagsinput/dist/js/bulma-tagsinput.js">
+     </script>
+     <script type="text/javascript">
+          bulmaTagsinput.attach();
+     </script>
+
+</html>

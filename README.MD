@@ -1,6 +1,6 @@
-# Xenon
+# PrivYet
 
-An upcoming social media app We hope to offer you the best we can both of security and interest It's mainly a website for socialization for both teenagers and adults to make friends and have fun.
+## An upcoming social media app We hope to offer you the best we can both of security and interest It's mainly a website for socialization for both teenagers and adults to make friends and have fun.
 
 Here are some of the things you'll want to check out.
 

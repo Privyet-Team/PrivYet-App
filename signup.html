@@ -7,7 +7,7 @@
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Sign Up | Privyet</title>
-          <link rel="shortcut icon" href="/Img/favicon.png" type="image/x-icon">
+          <link rel="shortcut icon" href="/Img/favicon.ico" type="image/x-icon">
           <link rel="stylesheet" href="/scss/bulma.css">
           <link rel="stylesheet" href="/scss/styles.css">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
@@ -19,263 +19,23 @@
      </head>
 
      <body>
-          <div class="container is-centered">
+          <div class="columns">
+               <div class="column ml-5 mt-5">
+                    <picture>
+                         <img src="./SVGs/Astronaut/Astronaut/Astronaut-01.svg" height="200" width="200" alt="">
+                    </picture>
+               </div>
                <div class="column">
-                    <form action="" method="post" class="box ml-5 mt-5" style="width: 500px;">
-                         <h3 class="has-text-centered title is-3">Signup to Privyet</h3>
-                         <div class="field-body">
-                              <div class="field">
-                                   <label class="label">Full Name</label>
-                                   <div class="control">
-                                        <input class="input" type="text" placeholder="e.g Alex Smith">
-                                   </div>
-                              </div>
-                              <br>
-                              <div class="field">
-                                   <label class="label">Username</label>
-                                   <div class="control">
-                                        <input type="text" name="" class="input" placeholder="Username"
-                                             aria-placeholder="" id="">
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="field-body">
-                              <div class="field">
-                                   <label class="label">Phone number</label>
-                                   <input type="tel" name="" class="input" placeholder="+234"
-                                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" id="" autocomplete="tel-country-code">
-                              </div>
-                              <div class="field">
-                                   <label for="" class="label">Password</label>
-                                   <input type="password" name="" autocomplete="" placeholder="********" required
-                                        aria-required="true" id="" class="input">
-                              </div>
-                         </div>
-                         <br>
-                         <div class="field-body">
-                              <div class="field">
-                                   <div class="field">
-                                        <label class="label">Email</label>
-                                        <div class="control">
-                                             <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                         <br>
-                         <div class="field">
-                              <div class="control has-icons-left">
-                                   <div class="select">
-                                        <select name="country">
-                                             <option selected>Country</option>
-                                             <option value="Argentina">Argentina</option>
-                                             <option value="Armenia">Armenia</option>
-                                             <option value="Australia">Australia</option>
-                                             <option value="Austria">Austria</option>
-                                             <option value="Azerbaijan">Azerbaijan</option>
-                                             <option value="Bahamas">Bahamas</option>
-                                             <option value="Bahrain">Bahrain</option>
-                                             <option value="Bangladesh">Bangladesh</option>
-                                             <option value="Barbados">Barbados</option>
-                                             <option value="Belarus">Belarus</option>
-                                             <option value="Belgium">Belgium</option>
-                                             <option value="Belize">Belize</option>
-                                             <option value="Benin">Benin</option>
-                                             <option value="Bhutan">Bhutan</option>
-                                             <option value="Bolivia">Bolivia</option>
-                                             <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                                             <option value="Botswana">Botswana</option>
-                                             <option value="Brazil">Brazil</option>
-                                             <option value="Brunei">Brunei</option>
-                                             <option value="Bulgaria">Bulgaria</option>
-                                             <option value="Burkina faso">Burkina faso</option>
-                                             <option value="Burundi">Burundi</option>
-                                             <option value="Côte d'Ivoire">Côte d'Ivoire</option>
-                                             <option value="Cabo verde">Cabo verde</option>
-                                             <option value="Cambodia">Cambodia</option>
-                                             <option value="Cameroon">Cameroon</option>
-                                             <option value="Canada">Canada</option>
-                                             <option value="Central African Republic">Central African Republic</option>
-                                             <option value="Chad">Chad</option>
-                                             <option value="Chile">Chile</option>
-                                             <option value="China">China</option>
-                                             <option value="Colombia">Colombia</option>
-                                             <option value="Comoros">Comoros</option>
-                                             <option value="Congo">Congo</option>
-                                             <option value="Costa Rica">Costa Rica</option>
-                                             <option value="Croatia">Croatia</option>
-                                             <option value="Cuba">Cuba</option>
-                                             <option value="Cyprus">Cyprus</option>
-                                             <option value="Czechia">Czechia</option>
-                                             <option value="Democratic Republic of the Congo">Democratic Republic of the
-                                                  Congo</option>
-                                             <option value="Denmark">Denmark</option>
-                                             <option value="Djibouti">Djibouti</option>
-                                             <option value="Dominica">Dominica</option>
-                                             <option value="Dominican Republic">Dominican Republic</option>
-                                             <option value="Ecuador">Ecuador</option>
-                                             <option value="Egypt">Egypt</option>
-                                             <option value="El Salvador">El Salvador</option>
-                                             <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                             <option value="Eritrea">Eritrea</option>
-                                             <option value="Estonia">Estonia</option>
-                                             <option value="Eswatini">Eswatini</option>
-                                             <option value="Ethopia">Ethiopia</option>
-                                             <option value="Fiji">Fiji</option>
-                                             <option value="Finland">Finland</option>
-                                             <option value="France">France</option>
-                                             <option value="Gabon">Gabon</option>
-                                             <option value="Gambia">Gambia</option>
-                                             <option value="Georgia">Georgia</option>
-                                             <option value="Germany">Germany</option>
-                                             <option value="Ghana">Ghana</option>
-                                             <option value="Greece">Greece</option>
-                                             <option value="Grenada">Grenada</option>
-                                             <option value="Guatemala">Guatemala</option>
-                                             <option value="Guinea">Guinea</option>
-                                             <option value="Guinea-bissau">Guinea-bissau</option>
-                                             <option value="Guyana">Guyana</option>
-                                             <option value="Haiti">Haiti</option>
-                                             <option value="Holy see">Holy see</option>
-                                             <option value="Honduras">Honduras</option>
-                                             <option value="Hungary">Hungary</option>
-                                             <option value="Iceland">Iceland</option>
-                                             <option value="India">India</option>
-                                             <option value="Indonesia">Indonesia</option>
-                                             <option value="Iran">Iran</option>
-                                             <option value="Iraq">Iraq</option>
-                                             <option value="Ireland">Ireland</option>
-                                             <option value="Israel">Israel</option>
-                                             <option value="Italy">Italy</option>
-                                             <option value="Jamaica">Jamaica</option>
-                                             <option value="Japan">Japan</option>
-                                             <option value="Jordan">Jordan</option>
-                                             <option value="Kazakhstan">Kazakhstan</option>
-                                             <option value="Kenya">Kenya</option>
-                                             <option value="Kiribati">Kiribati</option>
-                                             <option value="Kuwait">Kuwait</option>
-                                             <option value="Kyrgyztan">Kyrgyztan</option>
-                                             <option value="Laos">Laos</option>
-                                             <option value="Latvia">Latvia</option>
-                                             <option value="Lebanon">Lebanon</option>
-                                             <option value="Lesotho">Lesotho</option>
-                                             <option value="Liberia">Liberia</option>
-                                             <option value="Libya">Libya</option>
-                                             <option value="Liechtenstein">Liechtenstein</option>
-                                             <option value="Lithuania">Lithuania</option>
-                                             <option value="Luxembourg">Luxembourg </option>
-                                             <option value="Madagascar">Madagascar</option>
-                                             <option value="Malawi">Malawi</option>
-                                             <option value="Malaysia">Malaysia</option>
-                                             <option value="Maldives">Maldives</option>
-                                             <option value="Mali">Mali</option>
-                                             <option value="Malta">Malta</option>
-                                             <option value="Marshall islands">Marshall islands</option>
-                                             <option value="Mauritana">Mauritana</option>
-                                             <option value="Mauritius">Mauritius</option>
-                                             <option value="Mexico">Mexico</option>
-                                             <option value="Micronesia">Micronesia</option>
-                                             <option value="Moldova">Moldova</option>
-                                             <option value="Monaco">Monaco</option>
-                                             <option value="Mongolia">Mongolia</option>
-                                             <option value="Montenegro">Montenegro</option>
-                                             <option value="Moroco">Moroco</option>
-                                             <option value="Mozambique">Mozambique</option>
-                                             <option value="Myanmar">Myanmar</option>
-                                             <option value="Nambia">Nambia</option>
-                                             <option value="Nauru">Nauru</option>
-                                             <option value="Nepal">Nepal</option>
-                                             <option value="Netherlands">Netherlands</option>
-                                             <option value="New zealand">New zealand</option>
-                                             <option value="Nicaragua">Nicaragua</option>
-                                             <option value="Niger">Niger</option>
-                                             <option value="Nigeria">Nigeria</option>
-                                             <option value="North Korea">North korea</option>
-                                             <option value="North Macedonia">North Macedonia</option>
-                                             <option value="Norway">Norway</option>
-                                             <option value="Oman">Oman</option>
-                                             <option value="Pakistan">Pakistan</option>
-                                             <option value="Palau">Palau</option>
-                                             <option value="Palestine state">Palestine state</option>
-                                             <option value="Panama">Panama</option>
-                                             <option value="Papua new guinea">Papua new guinea</option>
-                                             <option value="Paraguay">Paraguay</option>
-                                             <option value="Peru">Peru</option>
-                                             <option value="Philipines">Philipines</option>
-                                             <option value="Poland">Poland</option>
-                                             <option value="Portugal">Portugal</option>
-                                             <option value="Qatar">Qatar</option>
-                                             <option value="Romania">Romania</option>
-                                             <option value="Russia">Russia</option>
-                                             <option value="Rwanda">Rwanda</option>
-                                             <option value="Saint kitts and nevis">Saint kitts and nevis</option>
-                                             <option value="Saint luicia">Saint luicia</option>
-                                             <option value="Saint Vincent and the Grenadines">Saint Vincent and the
-                                                  Grenadines</option>
-                                             <option value="Samoa">Samoa</option>
-                                             <option value="San Marino">San Marino</option>
-                                             <option value="Sao tome and principe">Sao tome and principe</option>
-                                             <option value="Saudi arabia">Saudi arabia</option>
-                                             <option value="Senegal">Senegal</option>
-                                             <option value="Serbia">Serbia</option>
-                                             <option value="Seychelles">Seychelles</option>
-                                             <option value="Sierra leone">Sierra leone</option>
-                                             <option value="Singapore">Singapore</option>
-                                             <option value="Slovakia">Slovakia</option>
-                                             <option value="Slovenia">Slovenia</option>
-                                             <option value="Solomon islands">Solomon islands</option>
-                                             <option value="Somalia">Somalia</option>
-                                             <option value="South Africa">South Africa</option>
-                                             <option value="South korea">South korea</option>
-                                             <option value="South sudan">South sudan</option>
-                                             <option value="Spain">Spain</option>
-                                             <option value="Sri lanka">Sri lanka</option>
-                                             <option value="Sudan">Sudan</option>
-                                             <option value="Suriname">Suriname</option>
-                                             <option value="Sweden">Sweden</option>
-                                             <option value="Switzerland">Switzerland</option>
-                                             <option value="Syria">Syria</option>
-                                             <option value="Tajikistan">Tajikistan</option>
-                                             <option value="Tanzania">Tanzania</option>
-                                             <option value="Thailand">Thailand</option>
-                                             <option value="Timor-leste">Timor-leste</option>
-                                             <option value="Togo">Togo</option>
-                                             <option value="Tonga">Tonga</option>
-                                             <option value="Trindad and Tobago">Trinidad and Tobago</option>
-                                             <option value="Tunisia">Tunisia</option>
-                                             <option value="Turkey">Turkey</option>
-                                             <option value="Turkmenistan">Turkemenistan</option>
-                                             <option value="Tuvalu">Tuvalu</option>
-                                             <option value="Uganda">Uganda</option>
-                                             <option value="Ukraine">Ukraine</option>
-                                             <option value="United arab emirates">United arab emirates</option>
-                                             <option value="United Kingdom">United kingdom</option>
-                                             <option value="United states of america">United states of america</option>
-                                             <option value="Uruguay">Uruguay</option>
-                                             <option value="Uzbekistan">Uzbekistan</option>
-                                             <option value="Vanuatu">Vanuatu</option>
-                                             <option value="Venezuala">Venezuala</option>
-                                             <option value="Vietnam">Vietnam</option>
-                                             <option value="Yemen">Yemen</option>
-                                             <option value="Zambia">Zambia</option>
-                                             <option value="Zimbabwe">Zimbabwe</option>
-                                        </select>
-                                   </div>
-                                   <div class="icon is-small is-left">
-                                        <i class="fas fa-globe"></i>
-                                   </div>
-                              </div>
-                         </div>
-                         <label class="checkbox">
-                              <input type="checkbox">
-                              I agree to the <a href="Terms-of-service.html">terms and conditions</a>
-                         </label>
-                         <h4 class="subtitle is-6">Have an account? <a href="login.html">Login</a></h4>
-                         <button type="submit" class="button is-success">Sign up</button>
-                         <hr>
+                    <form action="">
+                         <h1 class="title">Get started</h1>
+                         <p class="subtitle">Have an account?<a href="" class="link"> Login</a></p>
                          <div class="buttons">
-                              <button class="button is-github">
+                              <button class="button">
                                    <span class="icon">
+                                        <i class="fab fa-google"></i></span>
+                                   <span>Sign
+                                        in with Google</span></button><button class="button is-github"><span
+                                        class="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                              stroke-linecap="round" stroke-linejoin="round"
@@ -283,27 +43,26 @@
                                              <path
                                                   d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                              </path>
-                                        </svg>
-                                   </span>
-                                   <span class="has-text-weight-semibold"> Sign in with Github</span>
-                              </button>
-                              <button class="button is-twitter">
-                                   <span class="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-twitter">
-                                             <path
-                                                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                             </path>
-                                        </svg>
-                                   </span>
-                                   <span class="has-text-weight-semibold"> Sign in with twitter</span>
-                              </button>
+                                        </svg></span> <span>Sign in with Github</span></button>
                          </div>
+                         <div class="form-details mr-5">
+                              <div class="control">
+                                   <label for="" class="label">Full name</label>
+                                   <input type="text" name="" placeholder="Full Name" class="input" id="">
+                              </div>
+                              <div class="control">
+                                   <label for="" class="label">Username</label>
+                                   <input type="text" name="" placeholder="Username" class="input" id="">
+                              </div>
+                              <div class="control">
+                                   <label for="" class="label">Email address</label>
+                                   <input type="email" class="input" name="" placeholder="Email" id="">
+                              </div>
+                              <button type="submit" class="button is-info has-text-weight-bold is-fullwidth mt-5">Sign
+                                   Up</button>
+                         </div>
+                    </form>
                </div>
-               </form>
-          </div>
           </div>
      </body>
      <script src="/javascript/app.js"></script>
